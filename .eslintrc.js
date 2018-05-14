@@ -19,8 +19,17 @@ module.exports = {
         "array-callback-return": "error",
         "array-element-newline": "off",
         "arrow-body-style": "error",
-        "arrow-parens": "error",
-        "arrow-spacing": "error",
+        "arrow-parens": [
+            "error",
+            "always"
+        ],
+        "arrow-spacing": [
+            "error",
+            {
+                "after": true,
+                "before": true
+            }
+        ],
         "block-scoped-var": "error",
         "block-spacing": "error",
         "brace-style": [
@@ -69,7 +78,10 @@ module.exports = {
         "id-blacklist": "error",
         "id-length": "off",
         "id-match": "error",
-        "implicit-arrow-linebreak": "error",
+        "implicit-arrow-linebreak": [
+            "error",
+            "beside"
+        ],
         "indent": "error",
         "indent-legacy": "error",
         "init-declarations": "off",
@@ -85,7 +97,7 @@ module.exports = {
         "lines-around-directive": "error",
         "lines-between-class-members": "error",
         "max-depth": "error",
-        "max-len": "off",
+        "max-len": "error",
         "max-lines": "error",
         "max-nested-callbacks": "error",
         "max-params": "off",
@@ -240,17 +252,11 @@ module.exports = {
             "last"
         ],
         "sort-imports": "error",
-        "sort-keys": [
-            "error",
-            "asc"
-        ],
+        "sort-keys": "off",
         "sort-vars": "error",
         "space-before-blocks": "error",
         "space-before-function-paren": "off",
-        "space-in-parens": [
-            "error",
-            "always"
-        ],
+        "space-in-parens": "off",
         "space-infix-ops": "error",
         "space-unary-ops": "error",
         "spaced-comment": [

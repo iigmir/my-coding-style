@@ -1,5 +1,4 @@
 import someone from "something_moudles";
-var something_bad_happens = false;
 const msta = "Hello!";
 let testing = function( x , y )
 {   // Somes
@@ -29,7 +28,26 @@ let testing = function( x , y )
 function asdfghj( u , i , o , p )
 {   // Zohngfsnldf
     let somebad;
+    somebad = new Smc({
+        "foo" : 123,
+        "bae" : "baz",
+        "fnc" : true
+    });
+    if( somebad["fnc"] )
+    {
+        return true;
+    }
     return something_bad_happens !== u;
+}
+
+function asdewq( lt = [] )
+{
+    let f;
+    if( lt.length > 3 )
+    {
+        f = lt.filter( (e) => e["hms"] );
+    }
+    return f;
 }
 
 // Fucking!
@@ -39,4 +57,4 @@ function asdfghj( u , i , o , p )
  * gjkndl hdjkngn
  */
 console.log( msta );
-export default asdfghj( someone.fooo , something_bad_happens , testing( 1 , 2 ) , "p_a" );
+export default asdewq( [ 1,1,1,1,1 ] );
